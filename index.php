@@ -5,6 +5,6 @@
  <body>
  <?php echo '<h2>Hello OpenShift</h2>'; ?> 
  <?php $nextWeek = time() + (7 * 24 * 60 * 60);
-   echo 'It is:       '. date('Y-m-d') ."\n"; ?>
+   echo 'Today is:       '. date('Y-m-d') ."\n"; ?>
  </body>
 </html>
