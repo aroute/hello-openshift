@@ -3,7 +3,7 @@
   <title>OCP Hello World</title>
  </head>
  <body>
- <?php echo '<h2>Hello OpenShift</h2>'; ?> 
+ <?php echo '<h2 style="color:#FF0000";>Hello OpenShift!</h2>'; ?> 
  <?php $nextWeek = time() + (7 * 24 * 60 * 60);
    echo 'Today is:       '. date('Y-m-d') ."\n"; ?>
  </body>
